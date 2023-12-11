@@ -1,6 +1,6 @@
 body {
-  background-color: #000; /* Black background */
-  color: rgb(180, 180, 180); /* White text */
+  background-color: #000;
+  color: rgb(180, 180, 180);
   font-family: 'futura';
   margin: 0;
   padding: 0;
@@ -56,13 +56,19 @@ button {
   padding: 0px;
   font-size: 50px;
   cursor: pointer;
-  background-color: #000000; /* Button background color */
-  color: rgb(255, 255, 255); /* Text color */
-  border: none; /* Remove border */
-  outline: none; /* Remove outline */
-  transition: background-color 0.3s; /* Add a smooth transition to the background color */
+  background-color: #000000;
+  /* Button background color */
+  color: rgb(255, 255, 255);
+  /* Text color */
+  border: none;
+  /* Removed border */
+  outline: none;
+  /* Removed outline */
+  transition: background-color 0.3s;
+  /* Adding a smooth transition to the background color */
 }
 
 button:hover {
-  background-color: #FF3333; /* Change background color on hover */
+  background-color: #FF3333;
+  /* Change background color on hover */
 }
